@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv venv *)",
+      "Bash(.venv\\\\Scripts\\\\python.exe -m ipykernel install --user --name \"big-data-youtube\" --display-name \"Big Data YouTube \\(Python 3.14\\)\")",
+      "Bash(\".venv/Scripts/python.exe\" -m ipykernel install --user --name \"big-data-youtube\" --display-name \"Big Data YouTube \\(Python 3.14\\)\")",
+      "Bash(\".venv/Scripts/python.exe\" -c \"import pandas, duckdb, plotly, sklearn, xgboost, pyarrow, googleapiclient; print\\('pandas:', pandas.__version__\\); print\\('duckdb:', duckdb.__version__\\); print\\('plotly:', plotly.__version__\\); print\\('sklearn:', sklearn.__version__\\); print\\('xgboost:', xgboost.__version__\\); print\\('pyarrow:', pyarrow.__version__\\); print\\('All OK!'\\)\")"
+    ]
+  }
+}
